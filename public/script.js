@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     root.innerHTML = `
       <div class="">
         <header class="flex justify-between items-center px-10 py-5">
-          <h1 class="text-[45px] text-teal-600 weight-300 Oswald sans-serif">HODLINFO</h1>
+          <h1 class="text-[45px] text-teal-600 weight-300" style="font-family: Oswald, sans-serif;">HODLINFO</h1>
           <div class="flex gap-5">
             <div class="rounded-xl bg-gray-100 border dark:bg-slate-700 dark:text-white">
               <select name="currency" class="mx-5 my-1.5 bg-gray-100 dark:bg-slate-700">
@@ -70,19 +70,18 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
 
       <div class="footer">
-      <div class="d-flex align-items-center text-center">
-      <div class="footer-text">Copyright © 2019</div>
-      <div class="footer-text">HodlInfo.com</div>
-      <div class="footer-text pointer" style="margin-left: auto;">
-      <a href="mailto:support@hodlinfo.com" class="footer-text-link">Support</a>
-      </div>
-      </div>
-      </div>
+    <div class="d-flex align-items-center justify-content-between">
+        <div class="footer-text">Copyright © 2019</div>
+        <div class="footer-text">HodlInfo.com</div>
+        <div class="footer-text pointer">
+            <a href="mailto:support@hodlinfo.com" class="footer-text-link">Support</a>
+        </div>
+    </div>
+</div>
 
-      <div class="d-flex justify-content-center" style="border:solid 1px #191d28;background-color:#191d28;position:fixed;left:0;align-items:center;width:100vw;height:47px;bottom:0;z-index:8">
-      <button class="add-button btn btn-outline-info" style="display: block;">Add hodlinfo to home screen</button>
-      </div>
-
+<div class="d-flex justify-content-center text-center align-items-center py-2" style="border:solid 1px #191d28;background-color:#191d28;position:fixed;left:0;width:100vw;height:47px;bottom:0;z-index:8">
+    <button class="add-button btn btn-outline-info " style="background-color: transparent; color: lightblue; transition: background-color 0.3s; border-radius 0.3s; border: 1px solid lightblue; border-radius: 20px; padding: 5px 15px;">Add hodlinfo to home screen</button>
+</div>
     `;
   
 
